@@ -8,10 +8,11 @@ import { CountDown } from './components/CountDown';
 import { DefaultInput } from './components/DefaulfInput';
 import { Cycles } from './components/Cycles';
 import { DefaultButton } from './components/DefaulfButton';
-import { PlayCircleIcon, StopCircleIcon } from 'lucide-react';
+import { PlayCircleIcon } from 'lucide-react';
 import { Footer } from './components/Footer';
 
 export function App() {
+  
     return (
         <>
             <Container>
@@ -29,7 +30,11 @@ export function App() {
             <Container>
                 <form className='form' action="">
                     <div className="formRow">
-                        <DefaultInput labelText='task' id='input' type='text' placeholder='digite algo' />
+                        <DefaultInput
+                            labelText= 'task'
+                            id='input'
+                            type='text'
+                            placeholder='digite algo' />
                     </div>
                     <div className="formRow">
                         <p>Lorem ipsum dolor sit amet.</p>
@@ -38,13 +43,13 @@ export function App() {
                         <Cycles />
                     </div>
                     <div className="formRow">
-                        <DefaultButton icon={<PlayCircleIcon />} color='green'/>
+                        <DefaultButton icon={<PlayCircleIcon />} color='green' />
                     </div>
                 </form>
             </Container>
 
-              <Container>
-                <Footer/>
+            <Container>
+                <Footer />
             </Container>
 
         </>
