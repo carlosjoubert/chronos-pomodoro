@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     gap: 1.6rem;
-
 }
 
 .cycleDots {
@@ -19,14 +18,14 @@
     border-radius: 50%;
 }
 
-.workTime{
+.workTime {
     background: var(--warning);
 }
 
-.shortBreakTime{
-background: var(--primary);
+.shortBreakTime {
+    background: var(--primary);
 }
 
-.longBreakTime{
-background: var(--info);
+.longBreakTime {
+    background: var(--info);
 }
